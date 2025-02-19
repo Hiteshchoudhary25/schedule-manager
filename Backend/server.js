@@ -23,7 +23,7 @@ connection(url).then(() => {
     console.log("there is some issue in connecting database")
 })
 app.use(cors({
-    origin: 'https://schedule-manager-kdb2eoqrj-hitesh25s-projects.vercel.app/', // Frontend URL
+    origin: 'https://schedule-manager-sepia.vercel.app/', // Frontend URL
     credentials: true, // Allow cookies to be sent
 }));
 // app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
